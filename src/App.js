@@ -8,6 +8,7 @@ import BoxType from "./Components/BoxType";
 import CardType from "./Components/CardType";
 import ListType from "./Components/ListType";
 import GridType from "./Components/GridType";
+import StackType from "./Components/StackType";
 
 export default function App() {
   return (
@@ -23,6 +24,7 @@ export default function App() {
         <CardType />
         <ListType />
         <GridType />
+        <StackType />
       </div>
     </>
   );
