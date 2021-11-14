@@ -9,11 +9,14 @@ import CardType from "./Components/CardType";
 import ListType from "./Components/ListType";
 import GridType from "./Components/GridType";
 import StackType from "./Components/StackType";
+import AlertType from "./Components/AlertType";
+import AppBarType from "./Components/AppBarType";
 
 export default function App() {
   return (
     <>
       <div style={{ padding: "10px" }}>
+        <AppBarType />
         <h1 style={{ textAlign: "center" }}>Get started with React and MUI</h1>
         <hr />
         <ButtonType />
@@ -25,6 +28,7 @@ export default function App() {
         <ListType />
         <GridType />
         <StackType />
+        <AlertType />
       </div>
     </>
   );
