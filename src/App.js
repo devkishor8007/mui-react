@@ -11,6 +11,8 @@ import GridType from "./Components/GridType";
 import StackType from "./Components/StackType";
 import AlertType from "./Components/AlertType";
 import AppBarType from "./Components/AppBarType";
+import TextFieldType from "./Components/TextFieldType";
+import SnackBarType from "./Components/SnackBarType";
 
 export default function App() {
   return (
@@ -29,6 +31,8 @@ export default function App() {
         <GridType />
         <StackType />
         <AlertType />
+        <TextFieldType />
+        <SnackBarType />
       </div>
     </>
   );
