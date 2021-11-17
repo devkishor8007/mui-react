@@ -13,6 +13,9 @@ import AlertType from "./Components/AlertType";
 import AppBarType from "./Components/AppBarType";
 import TextFieldType from "./Components/TextFieldType";
 import SnackBarType from "./Components/SnackBarType";
+import DialogType from "./Components/DialogType";
+import ModalType from "./Components/ModalType";
+import PaperType from "./Components/PaperType";
 
 export default function App() {
   return (
@@ -33,6 +36,9 @@ export default function App() {
         <AlertType />
         <TextFieldType />
         <SnackBarType />
+        <DialogType />
+        <ModalType />
+        <PaperType />
       </div>
     </>
   );
