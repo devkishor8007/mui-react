@@ -16,6 +16,8 @@ import SnackBarType from "./Components/SnackBarType";
 import DialogType from "./Components/DialogType";
 import ModalType from "./Components/ModalType";
 import PaperType from "./Components/PaperType";
+import ChipType from "./Components/ChipType";
+import BadgeType from "./Components/BadgeType";
 
 export default function App() {
   return (
@@ -39,6 +41,8 @@ export default function App() {
         <DialogType />
         <ModalType />
         <PaperType />
+        <ChipType />
+        <BadgeType />
       </div>
     </>
   );
